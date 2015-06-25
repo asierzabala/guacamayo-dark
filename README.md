@@ -1,5 +1,5 @@
-# guacamayo-theme-brackets
-
+# Guacamayo colorscheme
+Readable and high-contrast dark theme for brackets
 
 ##Screenshots
 
