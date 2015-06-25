@@ -1,0 +1,16 @@
+{
+    "title": "Guacamayo",
+    "name": "guacamayo-dark",
+    "description": "A dark theme for brackets",
+    "version": "0.1.0",
+    "author": "blonfu <jansed@gmail.com>",
+    "homepage": "https://github.com/blonfu/guacamayo-theme-brackets",
+    "engines": {
+        "brackets": ">=1.1.0"
+    },
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    }
+}

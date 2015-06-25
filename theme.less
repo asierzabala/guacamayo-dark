@@ -1,0 +1,122 @@
+// Colors
+@background: #292929;
+@foreground: #e3e3e3;
+@blue: #5f96d3;
+@blue2: #a2bde5;
+@yellow: #ffcc00;
+@yellow2: #ffe680;
+@orange: #ff9955;
+@purple: #d084ff;
+@grey: #919191;
+
+
+/* Code Styling */
+.CodeMirror, .CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: rgba(59, 84, 119, 0.62);
+}
+
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 #7373ad;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: rgba(59, 84, 119, 0.62);
+        color: #fff;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #767676;
+    }
+}
+
+.cm-atom, .cm-string, .cm-string-2 {color: @yellow;}
+.cm-number {color: @orange;}
+.cm-def, .cm-property, .cm-attribute {color: @blue2;}
+.cm-keyword, .cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-bracket {color: @foreground;}
+.cm-comment  {color: @grey; font-style: italic;}
+.cm-error, .cm-meta  {color: @foreground;}
+.cm-link {color:  @blue; text-decoration: none;}
+.cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {color: @blue;}
+
+/* Markdown */
+.cm-header {color: @purple;}
+.cm-strong{ color: @orange; font-weight: bold;}
+.cm-em{ color: @orange; font-style: italic;}
+.cm-hr {color: @yellow;}
+.cm-m-markdown.cm-comment{font-style: normal; color: darken(@foreground, 10%)}
+
+
+/* Extra CSS */
+
+.CodeMirror-searching {
+    background-color: #fcf588;
+    &.searching-current-match {
+        background-color: #f6a644;
+    }
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #c5c8c6 !important;
+}
+
+.CodeMirror-gutters {
+    background-color: #1C1C1E;
+    border-right: none;
+}
+
+.CodeMirror-linenumber {
+    color: #767676;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #333f48;
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: #444648;
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    background-color: #6f0bad;
+    color: @foreground !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #fff;
+}
+
+
+.CodeMirror-foldgutter-open:after {
+    color: #666;
+}
+.CodeMirror-foldgutter-folded:after {
+    color: @grey;
+}
+
+.CodeMirror.over-gutter, .CodeMirror-activeline {
+    .CodeMirror-foldgutter-open:after {
+        color: #888;
+    }
+}
+
+.CodeMirror-foldmarker {
+    border-color: #000;
+    color: #444;
+    background-color: @grey;
+}
+
+/* Non-editor styling */
+
+.image-view,
+.not-editor {
+    background-color: #3e3e3e;
+}
+
+.view-pane .image-view {
+    color: @foreground;
+}
