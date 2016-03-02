@@ -31,6 +31,7 @@
 .cm-attribute {
   color: #a2bde5;
 }
+.cm-meta,
 .cm-keyword,
 .cm-variable,
 .cm-variable-2,
@@ -43,9 +44,8 @@
   color: #919191;
   font-style: italic;
 }
-.cm-error,
-.cm-meta {
-  color: #e3e3e3;
+.cm-error {
+  color: #ff6c00;
 }
 .cm-link {
   color: #5f96d3;
@@ -56,6 +56,9 @@
 .cm-tag,
 .cm-quote {
   color: #5f96d3;
+}
+.cm-m-javascript.cm-keyword {
+  color: #ff9955;
 }
 /* Markdown */
 .cm-header {
@@ -94,10 +97,10 @@
   color: #767676;
 }
 .CodeMirror .CodeMirror-selected {
-  background: rgba(114, 1, 114, 0.56);
+  background: rgba(111, 111, 111, 0.56);
 }
 .CodeMirror-focused .CodeMirror-selected {
-  background: rgba(177, 0, 177, 0.56);
+  background: rgba(123, 123, 123, 0.56);
 }
 .CodeMirror-matchingbracket,
 .CodeMirror-matchingtag {
@@ -124,7 +127,9 @@
   background-color: #919191;
 }
 /* Non-editor styling */
-.image-view,
+.image-view {
+  background-color: #292929;
+}
 .not-editor {
   background-color: #3e3e3e;
 }
@@ -136,7 +141,8 @@
 .ico-cssColorPreview {
   border: solid 1px grey;
   border-radius: 100%;
-  width: 7px;
-  height: 7px;
-  margin-left: 2px;
+  width: .6em;
+  height: .6em;
+  vertical-align: inherit;
+  line-height: .7em;
 }
