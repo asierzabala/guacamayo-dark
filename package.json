@@ -2,8 +2,8 @@
     "title": "Guacamayo",
     "name": "guacamayo-dark",
     "description": "Readable and high-contrast dark theme for brackets",
-    "version": "0.1.0",
-    "author": "blonfu <jansed@gmail.com>",
+    "version": "0.2.0",
+    "author": "blonfu <blonfu@insiberia.net>",
     "homepage": "https://github.com/blonfu/guacamayo-dark",
     "engines": {
         "brackets": ">=1.1.0"
