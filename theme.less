@@ -39,12 +39,13 @@
 .cm-number {color: @orange;}
 .cm-def, .cm-property, .cm-attribute {color: @blue2;}
 
-.cm-meta,.cm-keyword, .cm-variable, .cm-variable-2, .cm-variable-3, .cm-operator, .cm-bracket {color: @foreground;}
-.cm-comment  {color: @grey; font-style: italic;}
+.cm-meta, .cm-keyword, .cm-variable, .cm-variable-2, .cm-operator, .cm-bracket {color: @foreground;}
+.cm-variable-3{color: darken(@foreground, 10%)}
+.cm-comment {color: @grey; font-style: italic;}
 .cm-error{color: @orange2;}
 .cm-link {color:  @blue; text-decoration: none;}
 .cm-qualifier, .cm-builtin, .cm-tag, .cm-quote {color: @blue;}
-.cm-m-javascript.cm-keyword{color: @orange;}
+.cm-m-javascript.cm-keyword{color: @blue;}
 
 /* Markdown */
 .cm-header {color: @purple;}
@@ -140,4 +141,3 @@
     vertical-align: inherit;
     line-height: .7em;
 }
-

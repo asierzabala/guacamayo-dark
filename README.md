@@ -1,11 +1,11 @@
 # Guacamayo theme
-Readable and high-contrast dark theme for brackets.
+Dark theme for brackets.
 
-##Screenshots
+## Screenshots
 
-###HTML
+### HTML
 ![HTML Screenshot](screenshots/html.png)
-###CSS
+### CSS
 ![CSS Screenshot](screenshots/css.png)
-###JavaScript
+### JavaScript
 ![JavaScript Screenshot](screenshots/js.png)

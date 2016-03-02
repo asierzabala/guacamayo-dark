@@ -35,10 +35,12 @@
 .cm-keyword,
 .cm-variable,
 .cm-variable-2,
-.cm-variable-3,
 .cm-operator,
 .cm-bracket {
   color: #e3e3e3;
+}
+.cm-variable-3 {
+  color: #cacaca;
 }
 .cm-comment {
   color: #919191;
@@ -58,7 +60,7 @@
   color: #5f96d3;
 }
 .cm-m-javascript.cm-keyword {
-  color: #ff9955;
+  color: #5f96d3;
 }
 /* Markdown */
 .cm-header {
